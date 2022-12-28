@@ -11,6 +11,8 @@ class CreateUserUseCase {
 
   execute({ email, name }: IRequest): User {
     // Complete aqui
+    const newUser = this.usersRepository.create({ name, email });
+    return newUser;
   }
 }
 
