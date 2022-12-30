@@ -7,6 +7,7 @@ class CreateUserController {
 
   handle(request: Request, response: Response): Response {
     // Complete aqui
+    return response;
   }
 }
 
